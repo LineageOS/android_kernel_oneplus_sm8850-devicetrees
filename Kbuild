@@ -1,3 +1,7 @@
+ifeq ($(CONFIG_ARCH_ART), y)
+dtbo-y += art-fingerprint.dtbo
+endif
+
 ifeq ($(CONFIG_ARCH_CANOE), y)
 dtbo-y += canoe-fingerprint.dtbo
 endif
