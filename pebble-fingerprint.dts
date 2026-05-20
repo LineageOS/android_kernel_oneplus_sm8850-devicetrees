@@ -12,6 +12,6 @@
 	model = "Qualcomm Technologies, Inc. Pebble SoC";
 	compatible = "qcom,pebble";
 	qcom,board-id = <0 0>;
-	qcom,msm-id = <735 0x10000>;
+	qcom,msm-id = <735 0x10000>, <735 0x10001>;
 };
 
