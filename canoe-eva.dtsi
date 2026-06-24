@@ -96,7 +96,7 @@
 		};
 
 		non_secure_cb_group: cvp_non_secure_cb_group {
-			qcom,iommu-faults = "non-fatal";
+			qcom,iommu-faults = "stall-disable", "non-fatal", "HUPCF";
 		};
 
 		cvp_iommu_region_partition: cvp_iommu_region_partition {
