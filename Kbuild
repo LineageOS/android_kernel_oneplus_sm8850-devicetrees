@@ -1,5 +1,7 @@
+ifneq ($(CONFIG_ARCH_QTI_VM), y)
 ifeq ($(CONFIG_ARCH_ART), y)
 dtbo-y += art-fingerprint.dtbo
+endif
 endif
 
 ifeq ($(CONFIG_ARCH_CANOE), y)
