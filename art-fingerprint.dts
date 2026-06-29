@@ -10,7 +10,7 @@
 
 / {
 	model = "Qualcomm Technologies, Inc. Art SoC";
-	compatible = "qcom,art";
+	compatible = "qcom,art", "qcom,arth", "qcom,artl", "qcom,pebble";
 	qcom,board-id = <0 0>;
-	qcom,msm-id = <707 0x10000>, <707 0x20000>;
+	qcom,msm-id = <707 0x10000>, <707 0x20000>, <760 0x10000>, <755 0x10000>;
 };
