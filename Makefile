@@ -9,8 +9,13 @@ DTC_INCLUDE += \
 endif
 
 ifneq "$(wildcard $(vendor)/qcom)" ""
-	subdir-y += qcom
+#OPLUS_DTS_OVERLAY start
+	#subdir-y += qcom
+#OPLUS_DTS_OVERLAY end
 endif
+#OPLUS_DTS_OVERLAY start
+subdir-y += oplus
+#OPLUS_DTS_OVERLAY end
 
 # Silence all DTC warnings by default
 DTC_FLAGS += -q
