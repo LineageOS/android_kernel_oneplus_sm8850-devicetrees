@@ -33,6 +33,26 @@ _platform_map = {
             {"name": "infiniti-24831-canoe-overlay-production.dtbo"},
             {"name": "infiniti-24863-canoe-overlay-production.dtbo"},
             {"name": "infiniti-24831-canoe-overlay-evb.dtbo"},
+            {"name": "fairlady-25821-canoe-overlay.dtbo"},
+            {"name": "fairlady-25871-canoe-overlay.dtbo"},
+        ],
+        "binary_compatible_with": ["alor", "alor-interposer"],
+    },
+    "alor": {
+        "dtb_list": [
+            # keep sorted
+            {"name": "alor.dtb"},
+            {
+                "name": "alorp.dtb",
+                "apq": True,
+            },
+        ],
+        "dtbo_list": [
+            # keep sorted
+            {"name": "macan-24855-alor-overlay.dtbo"},
+            {"name": "macan-24877-alor-overlay-IN.dtbo"},
+            {"name": "macan-24877-alor-overlay-EU-US.dtbo"},
+            {"name": "macan-24855-alor-overlay-dvt2.dtbo"},
         ],
     },
     "alor-interposer": {
