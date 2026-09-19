@@ -6,6 +6,7 @@
 /dts-v1/;
 
 #include "canoep-tp.dtsi"
+#include "canoe-techpacks.dtsi"
 
 / {
 		model = "Qualcomm Technologies, Inc. CanoeP Alt. Thermal Profile SoC";

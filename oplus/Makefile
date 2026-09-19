@@ -3,8 +3,14 @@ CANOE_BASE_DTB += ../qcom/canoe.dtb ../qcom/canoe-v2.dtb ../qcom/canoe-tp.dtb ..
 CANOE_APQ_BASE_DTB += ../qcom/canoep.dtb ../qcom/canoep-v2.dtb ../qcom/canoep-tp.dtb ../qcom/canoep-tp-v2.dtb
 
 CANOE_BOARDS += \
-		infiniti-24831-canoe-overlay.dtbo \
-		infiniti-24863-canoe-overlay.dtbo \
+	infiniti-24831-canoe-overlay-t0.dtbo \
+	infiniti-24863-canoe-overlay-t0.dtbo \
+	infiniti-24863-canoe-overlay-pre-t0.dtbo \
+	infiniti-24831-canoe-overlay-pre-t0.dtbo \
+	infiniti-24863-canoe-overlay-evb.dtbo \
+	infiniti-24831-canoe-overlay-production.dtbo \
+	infiniti-24863-canoe-overlay-production.dtbo \
+	infiniti-24831-canoe-overlay-evb.dtbo
 
 dtb-y += $(CANOE_BASE_DTB) $(CANOE_APQ_BASE_DTB) $(CANOE_BOARDS)
 
