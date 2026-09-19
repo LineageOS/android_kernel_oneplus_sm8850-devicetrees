@@ -6,6 +6,10 @@
 /dts-v1/;
 
 #include "canoe.dtsi"
+#include "canoe-techpacks.dtsi"
+
+#include "data/canoe-ipa.dtsi"
+#include "data/smem-mailbox.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. Canoe SoC";

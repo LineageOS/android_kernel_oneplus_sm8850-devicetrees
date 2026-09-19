@@ -6,6 +6,7 @@
 /dts-v1/;
 
 #include "canoep-v2.dtsi"
+#include "canoe-v2-techpacks.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. CanoeP v2 SoC";
