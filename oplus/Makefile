@@ -17,7 +17,9 @@ CANOE_BOARDS += macan-24855-alor-overlay.dtbo \
 	macan-24877-alor-overlay-EU-US.dtbo \
 	macan-24855-alor-overlay-dvt2.dtbo \
 	fairlady-25821-canoe-overlay.dtbo \
-	fairlady-25871-canoe-overlay.dtbo
+	fairlady-25821-canoe-overlay-evb3.dtbo \
+	fairlady-25871-canoe-overlay.dtbo \
+	fairlady-25871-canoe-overlay-evb3.dtbo
 
 dtb-y += $(CANOE_BASE_DTB) $(CANOE_APQ_BASE_DTB) $(CANOE_BOARDS)
 
