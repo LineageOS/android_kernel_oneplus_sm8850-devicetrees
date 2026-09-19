@@ -1226,5 +1226,7 @@ endif
 
 always-y        := $(dtb-y)
 subdir-y        := $(dts-dirs)
+ifneq ($(CONFIG_ARCH_CANOE),y)
 subdir-y        += audio bt camera data display dsp eSE eva fingerprint graphics mm mmrm nfc securemsm synx video wlan
+endif
 clean-files     := *.dtb *.dtbo
