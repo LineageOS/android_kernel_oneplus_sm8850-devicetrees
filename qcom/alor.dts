@@ -6,6 +6,8 @@
 /dts-v1/;
 
 #include "alor.dtsi"
+#include "alor-techpacks.dtsi"
+#include "data/canoe-ipa.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. Alor SoC";

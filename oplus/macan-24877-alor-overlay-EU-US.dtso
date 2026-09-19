@@ -13,6 +13,9 @@
 #include "oplus_nfc/macan-nfc.dtsi"
 #include "mm/macan-24877-alor-mm.dtsi"
 
+#include "macan-alor-common.dtsi"
+#include "../qcom/camera/oplus/macanEx-camera-sensor-mtp-T0.dtsi"
+
 / {
     model = "Qualcomm Technologies, Inc. Alor MTP + WCN7750 WLAN + PM7750BA SMB1500 + ST54L + Panderio,macan-EU-US";
     oplus,project-id = <24877 24878 24879>;
