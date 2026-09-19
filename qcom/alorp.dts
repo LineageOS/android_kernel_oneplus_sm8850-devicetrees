@@ -6,6 +6,7 @@
 /dts-v1/;
 
 #include "alorp.dtsi"
+#include "alor-techpacks.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. AlorP SoC";
