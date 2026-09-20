@@ -3166,40 +3166,40 @@
 			qcom,mdss-dsi-panel-phy-timings = [00 24 0A 0A 1A 18 0A 0A 09 02 04 00 1E 0F];
 			qcom,display-topology = <1 1 1>,<2 2 1>;
 			qcom,default-topology-index = <1>;
-			qcom,partial-update-enabled = "single_roi";
-			qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
+			//qcom,partial-update-enabled = "single_roi";
+			//qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
 			qcom,dsi-mode-te-width-us = <315>;
 		};
 		timing@sdc_fhd_90 { /* FHD+ 90hz 1112.6Mbps */
 			qcom,mdss-dsi-panel-phy-timings = [00 24 0A 0A 1A 18 0A 0A 09 02 04 00 1E 0F];
 			qcom,display-topology = <1 1 1>,<2 2 1>;
 			qcom,default-topology-index = <1>;
-			qcom,partial-update-enabled = "single_roi";
-			qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
+			//qcom,partial-update-enabled = "single_roi";
+			//qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
 			qcom,dsi-mode-te-width-us = <315>;
 		};
 		timing@sdc_fhd_60 { /* FHD+ 60hz 1112.6Mbps */
 			qcom,mdss-dsi-panel-phy-timings = [00 24 0A 0A 1A 18 0A 0A 09 02 04 00 1E 0F];
 			qcom,display-topology = <1 1 1>,<2 2 1>;
 			qcom,default-topology-index = <1>;
-			qcom,partial-update-enabled = "single_roi";
-			qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
+			//qcom,partial-update-enabled = "single_roi";
+			//qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
 			qcom,dsi-mode-te-width-us = <315>;
 		};
 		timing@sdc_fhd_144 { /* FHD+ 144hz 1363.2Mbps */
 			qcom,mdss-dsi-panel-phy-timings = [00 2C 0C 0C 1D 1A 0C 0C 0B 02 04 00 24 11];
 			qcom,display-topology = <1 1 1>,<2 2 1>;
 			qcom,default-topology-index = <1>;
-			qcom,partial-update-enabled = "single_roi";
-			qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
+			//qcom,partial-update-enabled = "single_roi";
+			//qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
 			qcom,dsi-mode-te-width-us = <315>;
 		};
 		timing@sdc_fhd_165 { /* FHD+ 165hz 1363.2Mbps */
 			qcom,mdss-dsi-panel-phy-timings = [00 2C 0C 0C 1D 1A 0C 0C 0B 02 04 00 24 11];
 			qcom,display-topology = <1 1 1>,<2 2 1>;
 			qcom,default-topology-index = <1>;
-			qcom,partial-update-enabled = "single_roi";
-			qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
+			//qcom,partial-update-enabled = "single_roi";
+			//qcom,panel-roi-alignment = <1272 88 1272 88 1272 88>;
 			qcom,dsi-mode-te-width-us = <315>;
 		};
 		timing@oplus_fhd_120 { /* FHD+ 120hz 1112.6Mbps */
