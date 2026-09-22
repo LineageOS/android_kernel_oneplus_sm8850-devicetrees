@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b895e42a_6468f62d",
+        "filename": "qcom/canoe-v2.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-09-22T10:46:55Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "f1c5055a_5b0b8ff0",
+      "revId": "599144360f2e46a03ba95db49055c3b416bf0f80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88ceb0df_42ea74d2",
@@ -49,6 +67,24 @@
       "writtenOn": "2026-09-22T10:09:43Z",
       "side": 0,
       "message": "Can we drop these bootargs changes unless they’re required for this device",
+      "revId": "599144360f2e46a03ba95db49055c3b416bf0f80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0556c183_4124dab8",
+        "filename": "qcom/canoe.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-09-22T10:46:55Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "88ceb0df_42ea74d2",
       "revId": "599144360f2e46a03ba95db49055c3b416bf0f80",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
