@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ffa1677_8e660bb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-09-24T03:53:28Z",
+      "side": 1,
+      "message": "No regressions on macan non-CN variants, assuming it\u0027s fine on CN variant",
+      "revId": "39a1daf8209103269174c3a7311a013b144a3dcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
