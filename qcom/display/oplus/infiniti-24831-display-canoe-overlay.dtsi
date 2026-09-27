@@ -97,3 +97,22 @@
 	pinctrl-1 = <&sde_te_suspend &oplus_sde_dsi_suspend
 				&oplus_pmic_reset_suspend &oplus_vddr_en_suspend>;
 };
+
+/* Drop oplus 120 Hz timing to avoid duplicate display configurations. */
+&dsi_panel_AD296_P_3_A0020_dsc_cmd {
+	qcom,mdss-dsi-display-timings {
+		/delete-node/ timing@oplus_fhd_120;
+	};
+};
+
+&dsi_panel_AD296_P_3_A0020_dsc_cmd_evt {
+	qcom,mdss-dsi-display-timings {
+		/delete-node/ timing@oplus_fhd_120;
+	};
+};
+
+&dsi_panel_AA601_P_7_A0020_dsc_cmd {
+	qcom,mdss-dsi-display-timings {
+		/delete-node/ timing@oplus_fhd_120;
+	};
+};
