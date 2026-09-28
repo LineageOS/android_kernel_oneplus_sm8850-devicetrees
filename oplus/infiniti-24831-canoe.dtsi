@@ -294,7 +294,8 @@
 		compatible = "qcom,msm-geni-serial-hs";
 		reg = <0x1a84000 0x4000>;
 		reg-names = "se_phys";
-		interrupts = <GIC_SPI 857 IRQ_TYPE_LEVEL_HIGH>, <&tlmm 31 IRQ_TYPE_LEVEL_HIGH>;
+		interrupts-extended = <&intc GIC_SPI 857 IRQ_TYPE_LEVEL_HIGH>,
+				      <&tlmm 31 IRQ_TYPE_LEVEL_HIGH>;
         clock-names = "se-clk";
         clocks = <&gcc GCC_QUPV3_WRAP4_S1_CLK>;
 		interconnect-names = "qup-core", "qup-config", "qup-memory";
