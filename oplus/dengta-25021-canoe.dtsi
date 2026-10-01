@@ -16,6 +16,8 @@
 #include <dt-bindings/interrupt-controller/irq.h>
 #include <dt-bindings/spmi/spmi.h>
 
+#include "dengta-canoe-common.dtsi"
+
 / {
     model = "Qualcomm Technologies, Inc. Canoe MTP,dengta";
     oplus,project-id = <25021 25022>;

@@ -13,6 +13,8 @@
 #include "oplus_nfc/dengta-sn220.dtsi"
 #include "oplus_uff/oplus-uff-25021.dtsi"
 
+#include "dengta-canoe-common.dtsi"
+
 / {
     model = "Qualcomm Technologies, Inc. Canoe MTP,dengta";
     oplus,project-id = <25211 25212>;
