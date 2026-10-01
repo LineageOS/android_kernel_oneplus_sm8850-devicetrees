@@ -24,7 +24,11 @@ CANOE_BOARDS += macan-24855-alor-overlay.dtbo \
 CANOE_BOARDS += iceland-25926-canoe-overlay.dtbo \
 	iceland-25927-canoe-overlay.dtbo \
 	iceland-25978-canoe-overlay-EU.dtbo \
-	iceland-25978-canoe-overlay-IN.dtbo
+	iceland-25978-canoe-overlay-IN.dtbo \
+	dengta-25021-canoe-overlay.dtbo \
+	dengta-25211-canoe-overlay.dtbo \
+	dengta-25021-canoe-overlay-t0-evt.dtbo \
+	dengta-25211-canoe-overlay-t0-evt.dtbo
 
 dtb-y += $(CANOE_BASE_DTB) $(CANOE_APQ_BASE_DTB) $(CANOE_BOARDS)
 
