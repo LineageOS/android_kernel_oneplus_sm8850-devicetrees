@@ -741,6 +741,18 @@
 		oplus_spec,batt_full_time = <60>;
 		oplus_spec,batt_full_low_soc = <99>;
 		oplus_spec,batt_full_low_soc_time = <600>;
+		oplus_spec,cycle-derating-cc-thr = <200 400 800>;
+		oplus_spec,cycle-derating-temp-region-select = <21 44>;
+		oplus_spec,cycle-derating-ibus-tier-min = <1000 5000 7300>;
+		oplus_spec,cycle-derating-ibus-tier-max = <5000 7300 9100>;
+		oplus_spec,cycle-derating-tier-derated-ratio = <
+			/* cyc0 200-400  */ 100      100         100
+			/* cyc1 401-800  */ 100      100         100
+			/* cyc2 801-INF  */ 100      100         100>;
+		oplus_spec,cycle-derating-tier-vbat-cap-mv = <
+			/* cyc0 200-400  */  20       0           0
+			/* cyc1 401-800  */  40       0           0
+			/* cyc2 801-INF  */  60       0           0>;
 		oplus_spec,smooth_strategy_name = "bs";
 		smooth_strategy {
 			oplus_spec,reserve_table_centipercent =
