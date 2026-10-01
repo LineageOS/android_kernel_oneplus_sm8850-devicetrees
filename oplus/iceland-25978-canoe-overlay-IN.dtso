@@ -11,6 +11,7 @@
 #include "region-id.h.dtsi"
 #include "oplus_chg/iceland_ivy/oplus-chg-iceland-IN.dtsi"
 
+#include "iceland-canoe-common.dtsi"
 
 / {
     model = "Qualcomm Technologies, Inc. Canoe MTP,iceland-O IN";
