@@ -162,6 +162,9 @@
 &qdss_apps_mem {
     status = "disabled";
 };
+&qseecom_mem {
+    size = <0x0 0x2000000>;
+};
 
 /* This device release uses the extended PMIC PON event numbering. */
 &soc {
