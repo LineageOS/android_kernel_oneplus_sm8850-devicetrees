@@ -17,6 +17,17 @@
 	};
 };
 
+&battery_charger {
+	oplus,batt_full_temp = <(-100) 160 350 410>;
+	oplus,batt_full_para = <800 2200 2200 2200    /* normal pd qc */
+				1000 2200 3600 3000      /* svooc */
+				1000 2200 3600 3000      /* oplus ufcs */
+				1000 2200 3600 3000      /* oplus pps */
+				1000 2200 3600 3000      /* third ufcs */
+				1000 2200 3600 3000      /* third pps */
+				1500 1500 1300 1300>;    /* ffc */
+};
+
 &maxim_encryption_gauge {
 	/* CN:611307000110
 	   IN:611307000112

@@ -140,12 +140,12 @@
 &battery_charger {
 	/* QCOM QBG full param, depend on adapter type and temp_region */
 	oplus,batt_full_method_new;
-	oplus,batt_full_temp = <(-100) 160 350 440>;
+	oplus,batt_full_temp = <(-100) 160 350 410>;
 	oplus,batt_full_para = <800 2200 2200 2200    /* normal pd qc */
-				1000 2400 2400 3600      /* svooc */
-				1000 2400 2400 3600      /* oplus ufcs */
-				1000 2400 2400 3600      /* oplus pps */
-				1000 2400 2400 3600      /* third ufcs */
-				1000 2400 2400 3600      /* third pps */
+				1000 2400 3600 3000      /* svooc */
+				1000 2400 3600 3000      /* oplus ufcs */
+				1000 2400 3600 3000      /* oplus pps */
+				1000 2400 3600 3000      /* third ufcs */
+				1000 2400 3600 3000      /* third pps */
 				1500 1500 1300 1300>;    /* ffc */
 };
