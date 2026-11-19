@@ -47,15 +47,15 @@
 &pmih010x_bcl {
     bcl,support_track;
     bcl,support_dynamic_vbat;
-    bcl,dynamic_vbat_data = <(-50) 3000 3000 2500
-                100 2900 2900 2500
-                1000 2800 2800 2500>;
+    bcl,dynamic_vbat_data = <(-50) 3000 3000 2600
+                100 2900 2900 2600
+                1000 2800 2800 2600>;
 };
 
 &pmh0101_bcl {
     bcl,support_track;
     bcl,support_dynamic_vbat;
-    bcl,dynamic_vbat_data = <(-50) 3050 2700 2300
-                100 2950 2700 2300
-                1000 2850 2700 2300>;
+    bcl,dynamic_vbat_data = <(-50) 3050 2700 2500
+                100 2950 2700 2500
+                1000 2850 2700 2500>;
 };
