@@ -167,3 +167,7 @@
         bias-pull-down;
     };
 };
+
+&mpss_mem {
+    reg = <0x0 0x8aa00000 0x0 0xd800000>;
+};
